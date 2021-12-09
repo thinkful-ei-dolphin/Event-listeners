@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        label{
+            margin-right:10px;
+        }
+        button{
+            margin-left: 5px;
+        }
+        h2{
+            text-align: center;
+        }
+
+        ul{
+            text-align: center;
+            list-style: none;
+        }
+        ul li{
+            color:blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--<button class="btn">Click Me</button>
+    <div class="result"></div>-->
+<h2>To Do List</h2>
+
+    <form id="form">
+        <label for="input">Add Item</label>
+        <input type="text" name="todo" id="input">
+        <button type="submit">Go</button>
+        <button type="reset">Reset</button>
+    </form>
+    <ul class="todos">
+
+    </ul>
+    <script src="main.js"></script>
+</body>
+</html>
